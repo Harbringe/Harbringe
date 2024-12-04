@@ -1,5 +1,3 @@
-## Hi there 👋
-
 <!--
 **Harbringe/Harbringe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -14,9 +12,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=harbringe.harbringe" />
-
+<div align="right">
+[![](https://visitcount.itsvg.in/api?id=harbringe&icon=0&color=3)](https://visitcount.itsvg.in)
+</div>
 <h1 align="center">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Aaditya!;" />
 </h1>
@@ -71,10 +69,12 @@ Here are some ideas to get you started:
 </div>
 
 <hr/>
-
+<div align=center>
 <h2 align="center">⚡ Stats ⚡</h2>
 <br>
-<div align=center>
+
+[![GitHub Streak](https://github-readme-streak-stats-seven-gamma.vercel.app?user=harbringe&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=harbringe&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=true&layout=compact)
 
 </div>
 
@@ -84,6 +84,24 @@ Here are some ideas to get you started:
 
 <br/>
 
+<!--
+<div align=center>
+<h2 align="center">Random Quote</h2>
+<br>
+
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+</div>
+
 
 <br/>
+-->
+
+
+
+
+
+
+  
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
