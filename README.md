@@ -33,7 +33,6 @@ Here are some ideas to get you started:
 
 💬 Ask me about **Python, ML, CNNs, RNNs... or anything [here](https://github.com/Harbringe/Harbringe/issues)**
 
-⚡ Fun fact **Santa Claus is not real**
 
  </div>
  
