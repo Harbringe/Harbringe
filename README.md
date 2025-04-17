@@ -74,7 +74,7 @@ Here are some ideas to get you started:
 <h2 align="center">⚡ Stats ⚡</h2>
 <br>
 
-[![GitHub Streak](https://github-readme-streak-stats-seven-gamma.vercel.app?user=Harbringe&theme=tokyonight)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=Harbringe&theme=tokyonight)](https://git.io/streak-stats)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=harbringe&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=true&layout=compact)
 
 </div>
