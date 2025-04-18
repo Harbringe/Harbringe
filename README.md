@@ -55,7 +55,7 @@ Here are some ideas to get you started:
 <br/>
 <div align="center">
     <img src="https://skillicons.dev/icons?i=bootstrap,html,css,vscode,github,figma,tailwind,git,haskell,tensorflow,mongodb,django" />
-    <img src="https://skillicons.dev/icons?i=python,javascript,c,java,mysql,flask,opencv,aws,docker,blender,postman,unity,git,github"/><br>
+    <img src="https://skillicons.dev/icons?i=python,javascript,c,java,mysql,flask,opencv,aws,docker,blender,postman,unity,git,github,React,Next"/><br>
 </div>
 
 <br/>
