@@ -21,15 +21,13 @@ Here are some ideas to get you started:
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Aaditya!;" />
 </h1>
 
-<h3 align="center">A passionate ML Engineer from India 🇮🇳</h3>
+<h3 align="center">A passionate AI and Blockchain Developer from India 🇮🇳</h3>
 
 <br/>
 
 <div align="center">
  
- 🔭 I’m currently working on **A MODI Speech Transliteration Project**
- 
- 🌱 I’m currently learning **Haskell**
+ 🔭 I’m currently working on **a cool project**
 
 💬 Ask me about **Python, ML, CNNs, RNNs... or anything [here](https://github.com/Harbringe/Harbringe/issues)**
 
