@@ -26,7 +26,13 @@ jobs:
     steps:
       - name: Clone repo
         uses: actions/checkout@v3
-    
+
+      - name: Generate the btop stats panel in './dist/'
+        run: node scripts/generate-stats.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+
       - name: Generate the snake files in './dist/'
         uses: Platane/snk@v3
         id: snake-gif

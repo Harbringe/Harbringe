@@ -38,15 +38,10 @@
 
 <br>
 
-<h2><samp>$ gh stats --user harbringe</samp></h2>
+<h2><samp>$ btop --user harbringe</samp></h2>
 
 <div align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com/?user=Harbringe&theme=tokyonight&hide_border=true&background=1a1b26" alt="GitHub streak" />
-  </a>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=harbringe&theme=tokyonight" height="193" alt="Top languages" />
-  <br><br>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Harbringe&theme=tokyo-night&hide_border=true&area=true&bg_color=1a1b26&color=7aa2f7&line=bb9af7&point=9ece6a" width="92%" alt="Contribution activity graph" />
+  <img src="https://raw.githubusercontent.com/Harbringe/Harbringe/output/stats.svg" width="860" alt="btop-style system monitor: language cores, uptime, repos, stars, followers, contribution activity — regenerated daily from live GitHub stats" />
 </div>
 
 <br>

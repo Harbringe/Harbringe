@@ -32,12 +32,20 @@
     .d51 { animation-delay: 5.1s; }  .d53 { animation-delay: 5.3s; }
     .d55 { animation-delay: 5.55s; }
     .d60 { animation-delay: 6.0s; }
-    .d78 { animation-delay: 7.8s; }
-    .d83 { animation-delay: 8.3s; }
+    .d84 { animation-delay: 8.4s; }
+    .d89 { animation-delay: 8.9s; }
 
     /* ---------- blinking cursor ---------- */
     @keyframes blink { 0%, 45% { opacity: 1; } 50%, 95% { opacity: 0; } 100% { opacity: 1; } }
-    .cursor { animation: reveal 0.05s steps(1,start) 8.3s both, blink 1.1s step-end 8.3s infinite; }
+    .cursor { animation: reveal 0.05s steps(1,start) 8.9s both, blink 1.1s step-end 8.9s infinite; }
+
+    /* ---------- invader fires on the rm command ---------- */
+    @keyframes laser { 0% { height: 0; opacity: 1; } 70% { height: 127px; opacity: 1; } 100% { height: 127px; opacity: 0; } }
+    .laser { animation: laser 0.5s ease-in 7.7s both; filter: drop-shadow(0 0 4px #7dcfff); }
+    @keyframes boom { 0% { r: 0; opacity: 0.9; } 60% { r: 10px; opacity: 0.4; } 100% { r: 14px; opacity: 0; } }
+    .boom { animation: boom 0.45s ease-out 8.05s both; }
+    @keyframes recoil { 0%, 100% { transform: translateY(0); } 40% { transform: translateY(-8px); } }
+    .recoil { animation: recoil 0.4s ease-out 7.7s both; }
 
     /* ---------- status dot pulse + invader glow ---------- */
     @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.25; } }
@@ -70,6 +78,7 @@
   <text x="46" y="136" class="cmd" clip-path="url(#t2)">neofetch</text>
 
   <!-- invader art -->
+  <g class="recoil">
   <g class="glow">
     <g class="invader">
       <text x="66" y="188" xml:space="preserve" class="art r d36">  ▀▄   ▄▀</text>
@@ -79,7 +88,12 @@
       <text x="66" y="276" xml:space="preserve" class="art r d42"> ▀▀ ▀▀▀ ▀▀</text>
     </g>
   </g>
+  </g>
   <text x="115" y="312" text-anchor="middle" class="dim r d43" font-size="13">[ harbringe ]</text>
+
+  <!-- laser shot: invader vaporizes ~/boredom -->
+  <rect x="126" y="320" width="3" height="0" rx="1.5" fill="#7dcfff" class="laser"/>
+  <circle cx="127.5" cy="449" r="0" fill="#7dcfff" class="boom"/>
 
   <!-- neofetch info -->
   <text x="300" y="180" xml:space="preserve" class="r d36"><tspan class="cyan" font-weight="bold">aaditya</tspan><tspan class="dim">@</tspan><tspan class="cyan" font-weight="bold">harbringe</tspan></text>
@@ -110,10 +124,10 @@
   </g>
   <clipPath id="t3"><rect x="46" y="414" width="300" height="22"/></clipPath>
   <text x="46" y="430" clip-path="url(#t3)"><tspan class="yellow">sudo</tspan><tspan class="cmd"> rm -rf ~/boredom</tspan></text>
-  <text x="28" y="455" class="r d78"><tspan class="dim">removed '</tspan><tspan class="red">boredom</tspan><tspan class="dim">' — nothing of value was lost</tspan> <tspan class="green">✔</tspan></text>
+  <text x="28" y="455" class="r d84"><tspan class="dim">removed '</tspan><tspan class="red">boredom</tspan><tspan class="dim">' — nothing of value was lost</tspan> <tspan class="green">✔</tspan></text>
 
   <!-- ══════════ final prompt + cursor ══════════ -->
-  <text x="28" y="490" class="prompt r d83">$ </text>
+  <text x="28" y="490" class="prompt r d89">$ </text>
   <rect x="48" y="477" width="9" height="17" fill="#c0caf5" class="cursor"/>
 
   <!-- CRT scanlines -->
