@@ -11,32 +11,17 @@
 
 <br>
 
-<h2><samp>$ ls ~/projects --sort=priority</samp></h2>
-
-|  | project | tl;dr | stack |
-|---|---------|-------|-------|
-| `01` | **[AI-Integrated Expense Claim](https://github.com/Harbringe/AI-integrated-Expense-Claim)** | Policy-driven, auditable T&E reimbursement engine — Azure OpenAI vision receipt extraction with manual-review routing on low confidence, tool-calling orchestrator with full audit traces, ~20 explainable validators (passed/expected/actual/reason), policy-as-data via swappable Markdown knowledge packages | FastAPI · SQLAlchemy · Pydantic · React+TS |
-| `02` | **EO-Insight** | Earth-observation RAG — Sentinel-2 GeoTIFF ingestion → BLIP-2 captions → CLIP embeddings → Qdrant retrieval | LangChain · FastAPI · Celery |
-| `03` | **MODI Transliterator** | Deep-learning OCR for MODI script → Devanagari, custom CRNN and dataset built from scratch — **published at ICRATM-2025, CRC Press** | TensorFlow · OpenCV |
-| `04` | **Knowledge Ledger** | Web3 LMS backend — JWT auth, Razorpay payments, NFT certificates, 85%+ test coverage | Django · DRF · PostgreSQL |
-
-<samp><b>also built</b> <i>(blockchain era)</i> — Unikron · cross-chain DEX aggregator &nbsp;·&nbsp; DARA · decentralized HFT platform &nbsp;·&nbsp; Karbonica · Cardano carbon-credit registry</samp>
-
-> 📄 **Published research:** *Comprehensive Review of OCR and Transliteration Techniques for MODI Script* — ICRATM-2025, CRC Press
-
-<br>
-
 <h2><samp>$ pip list | grep -iE "genai|vision"</samp></h2>
 
 ```text
-langchain          rag · tool-calling · agentic orchestration
-azure-openai       vision extraction · structured outputs
+langchain          rag pipelines · tool-calling agents · auditable orchestration
+azure-openai       vision document extraction · confidence-routed human review
 huggingface        transformers · model zoo
-yolo               v11 · yolo-world
-clip / blip-2      embeddings · image captioning
-crnn / cnn         custom OCR architectures
-qdrant / chroma    vector stores
-celery             async ml pipelines
+yolo               v11 · yolo-world · open-vocabulary detection
+clip / blip-2      embeddings · captioning (yes, satellite imagery counts)
+crnn / cnn         custom OCR — incl. a script that had no dataset until I made one
+qdrant / chroma    vector stores doing real retrieval work
+celery             async ml pipelines that survive mondays
 ```
 
 <br>
