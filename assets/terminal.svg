@@ -70,7 +70,7 @@
   <text x="28" y="76" class="prompt">$ </text>
   <clipPath id="t1"><rect x="46" y="60" width="300" height="22"/></clipPath>
   <text x="46" y="76" class="cmd" clip-path="url(#t1)">whoami</text>
-  <text x="28" y="101" class="r d15">Aaditya Mehetre <tspan class="dim">::</tspan> AI <tspan class="red">×</tspan> Blockchain Developer</text>
+  <text x="28" y="101" class="r d15">Aaditya Mehetre <tspan class="dim">::</tspan> <tspan class="cyan">GenAI / AI-Backend</tspan> Engineer <tspan class="dim">·</tspan> published OCR researcher</text>
 
   <!-- ══════════ line 2: neofetch ══════════ -->
   <text x="28" y="136" class="prompt">$ </text>
@@ -98,24 +98,25 @@
   <!-- neofetch info -->
   <text x="300" y="180" xml:space="preserve" class="r d36"><tspan class="cyan" font-weight="bold">aaditya</tspan><tspan class="dim">@</tspan><tspan class="cyan" font-weight="bold">harbringe</tspan></text>
   <text x="300" y="200" xml:space="preserve" class="dim r d37">─────────────────────────────────────────</text>
-  <text x="300" y="222" xml:space="preserve" class="r d39"><tspan class="mag">OS</tspan><tspan class="dim">:        </tspan>AadityaOS 22.04 LTS <tspan class="dim">(india build)</tspan></text>
-  <text x="300" y="244" xml:space="preserve" class="r d40"><tspan class="mag">Kernel</tspan><tspan class="dim">:    </tspan>AI × Blockchain hybrid core</text>
-  <text x="300" y="266" xml:space="preserve" class="r d42"><tspan class="mag">Shell</tspan><tspan class="dim">:     </tspan>python · solidity · javascript</text>
-  <text x="300" y="288" xml:space="preserve" class="r d43"><tspan class="mag">Packages</tspan><tspan class="dim">:  </tspan>ml, cnn, rnn, web3, dapps <tspan class="dim">(apt)</tspan></text>
-  <text x="300" y="310" xml:space="preserve" class="r d45"><tspan class="mag">Focus</tspan><tspan class="dim">:     </tspan>deep learning &amp; decentralized apps</text>
-  <text x="300" y="332" xml:space="preserve" class="r d46"><tspan class="mag">Contact</tspan><tspan class="dim">:   </tspan>aadityamehetre@icloud.com</text>
-  <text x="300" y="354" xml:space="preserve" class="r d48"><tspan class="mag">Status</tspan><tspan class="dim">:    </tspan><tspan class="green pulse">●</tspan> compiling dreams…</text>
+  <text x="300" y="222" xml:space="preserve" class="r d39"><tspan class="mag">OS</tspan><tspan class="dim">:        </tspan>AadityaOS 22.04 LTS <tspan class="dim">(pune · india build)</tspan></text>
+  <text x="300" y="244" xml:space="preserve" class="r d40"><tspan class="mag">Kernel</tspan><tspan class="dim">:    </tspan>genai-backend core <tspan class="dim">(agentic, tool-calling)</tspan></text>
+  <text x="300" y="266" xml:space="preserve" class="r d42"><tspan class="mag">Shell</tspan><tspan class="dim">:     </tspan>python · fastapi · node</text>
+  <text x="300" y="288" xml:space="preserve" class="r d43"><tspan class="mag">Packages</tspan><tspan class="dim">:  </tspan>rag, langchain, yolo, qdrant, celery <tspan class="dim">(pip)</tspan></text>
+  <text x="300" y="310" xml:space="preserve" class="r d45"><tspan class="mag">Research</tspan><tspan class="dim">:  </tspan>MODI-script OCR — ICRATM-2025, CRC Press</text>
+  <text x="300" y="332" xml:space="preserve" class="r d46"><tspan class="mag">Degree</tspan><tspan class="dim">:    </tspan>B.E. CompE, hons. data science <tspan class="dim">(SPPU)</tspan></text>
+  <text x="300" y="354" xml:space="preserve" class="r d48"><tspan class="mag">Contact</tspan><tspan class="dim">:   </tspan>aadityamehetre@icloud.com</text>
+  <text x="300" y="376" xml:space="preserve" class="r d49"><tspan class="mag">Status</tspan><tspan class="dim">:    </tspan><tspan class="green pulse">●</tspan> compiling dreams…</text>
 
   <!-- neofetch palette -->
   <g class="r d51">
-    <rect x="300" y="370" width="22" height="12" fill="#f7768e"/>
-    <rect x="326" y="370" width="22" height="12" fill="#e0af68"/>
-    <rect x="352" y="370" width="22" height="12" fill="#9ece6a"/>
-    <rect x="378" y="370" width="22" height="12" fill="#7dcfff"/>
-    <rect x="404" y="370" width="22" height="12" fill="#bb9af7"/>
-    <rect x="430" y="370" width="22" height="12" fill="#7aa2f7"/>
-    <rect x="456" y="370" width="22" height="12" fill="#c0caf5"/>
-    <rect x="482" y="370" width="22" height="12" fill="#565f89"/>
+    <rect x="300" y="392" width="22" height="12" fill="#f7768e"/>
+    <rect x="326" y="392" width="22" height="12" fill="#e0af68"/>
+    <rect x="352" y="392" width="22" height="12" fill="#9ece6a"/>
+    <rect x="378" y="392" width="22" height="12" fill="#7dcfff"/>
+    <rect x="404" y="392" width="22" height="12" fill="#bb9af7"/>
+    <rect x="430" y="392" width="22" height="12" fill="#7aa2f7"/>
+    <rect x="456" y="392" width="22" height="12" fill="#c0caf5"/>
+    <rect x="482" y="392" width="22" height="12" fill="#565f89"/>
   </g>
 
   <!-- ══════════ line 3: rm boredom ══════════ -->
