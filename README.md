@@ -7,7 +7,7 @@
   <a href="mailto:aadityamehetre@icloud.com">
     <img src="https://img.shields.io/badge/mail-1a1b26?style=for-the-badge&logo=gmail&logoColor=f7768e" alt="Email" />
   </a>
-  <a href="https://linkedin.com/in/aadityamehetre" target="_blank">
+  <a href="https://linkedin.com/in/aaditya-mehetre" target="_blank">
     <img src="https://img.shields.io/badge/linkedin-1a1b26?style=for-the-badge&logo=linkedin&logoColor=7aa2f7" alt="LinkedIn" />
   </a>
   <a href="https://github.com/Harbringe/Harbringe/issues">
