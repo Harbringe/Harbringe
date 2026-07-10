@@ -1,18 +1,12 @@
 <div align="center">
-  <img src="assets/terminal.svg" width="860" alt="Animated terminal — whoami: Aaditya Mehetre, GenAI / AI-Backend Engineer, published OCR researcher. neofetch: AadityaOS (pune build), kernel: genai-backend core, shell: python · fastapi · node, research: MODI-script OCR published at ICRATM-2025, CRC Press" />
+  <img src="assets/hero.svg" width="860" alt="Animated terminal — whoami: Aaditya Mehetre, GenAI / AI-Backend Engineer, published OCR researcher. neofetch: AadityaOS (pune build), kernel: genai-backend core, shell: python · fastapi · node, research: MODI-script OCR published at ICRATM-2025, CRC Press" />
 </div>
 
 <div align="center">
   <br>
-  <a href="mailto:aadityamehetre@icloud.com">
-    <img src="https://img.shields.io/badge/mail-1a1b26?style=for-the-badge&logo=gmail&logoColor=f7768e" alt="Email" />
-  </a>
-  <a href="https://linkedin.com/in/aaditya-mehetre" target="_blank">
-    <img src="https://img.shields.io/badge/linkedin-1a1b26?style=for-the-badge&logo=linkedin&logoColor=7aa2f7" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/Harbringe/Harbringe/issues">
-    <img src="https://img.shields.io/badge/ask_me_anything-1a1b26?style=for-the-badge&logo=github&logoColor=9ece6a" alt="Ask me anything" />
-  </a>
+  <a href="mailto:aadityamehetre@icloud.com"><img src="assets/badge-mail.svg" alt="Email" /></a>&nbsp;
+  <a href="https://linkedin.com/in/aaditya-mehetre"><img src="assets/badge-linkedin.svg" alt="LinkedIn" /></a>&nbsp;
+  <a href="https://github.com/Harbringe/Harbringe/issues"><img src="assets/badge-ama.svg" alt="Ask me anything" /></a>
 </div>
 
 <br>
