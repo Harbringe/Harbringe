@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/terminal.svg" width="860" alt="Animated terminal — whoami: Aaditya Mehetre, AI × Blockchain Developer. neofetch: AadityaOS, kernel: AI × Blockchain hybrid core, shell: python · solidity · javascript" />
+  <img src="assets/terminal.svg" width="860" alt="Animated terminal — whoami: Aaditya Mehetre, GenAI / AI-Backend Engineer, published OCR researcher. neofetch: AadityaOS (pune build), kernel: genai-backend core, shell: python · fastapi · node, research: MODI-script OCR published at ICRATM-2025, CRC Press" />
 </div>
 
 <div align="center">
@@ -17,12 +17,27 @@
 
 <br>
 
+<h2><samp>$ pip list | grep -iE "genai|vision"</samp></h2>
+
+```text
+langchain          rag pipelines · tool-calling agents · auditable orchestration
+azure-openai       vision document extraction · confidence-routed human review
+huggingface        transformers · model zoo
+yolo               v11 · yolo-world · open-vocabulary detection
+clip / blip-2      embeddings · captioning (yes, satellite imagery counts)
+crnn / cnn         custom OCR — incl. a script that had no dataset until I made one
+qdrant / chroma    vector stores doing real retrieval work
+celery             async ml pipelines that survive mondays
+```
+
+<br>
+
 <h2><samp>$ ls ~/toolbox</samp></h2>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,javascript,c,java,haskell,tensorflow,opencv,react,next,django,flask,tailwind" alt="Languages and frameworks" />
+  <img src="https://skillicons.dev/icons?i=python,fastapi,django,flask,nodejs,express,java,spring,tensorflow,opencv,react,ts" alt="Languages and frameworks" />
   <br>
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,aws,docker,git,github,vscode,figma,blender,postman,unity,html" alt="Tools" />
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,sqlite,docker,aws,git,github,solidity,linux" alt="Databases, infra and tools" />
 </div>
 
 <br>
@@ -48,11 +63,12 @@
 
 <h2><samp>$ crontab -l</samp></h2>
 
-<div align="center"><samp>
-
-`0 9 * * *` &nbsp;→&nbsp; train models ☕ &nbsp;•&nbsp; `0 14 * * *` &nbsp;→&nbsp; ship dApps ⛓️ &nbsp;•&nbsp; `0 23 * * *` &nbsp;→&nbsp; "one more commit" 🌙
-
-</samp></div>
+```bash
+# m   h    dom  mon  dow    command
+  0   9    *    *    *      ./train_models.sh          # ☕ mornings are for ML
+  0   14   *    *    *      ./ship_backends.sh         # 🚀 afternoons ship APIs
+  0   23   *    *    *      git commit -m "one more"   # 🌙 every single night
+```
 
 <br>
 

@@ -14,6 +14,7 @@ on:
   push:
     branches:
     - main
+    - claude/readme-creative-redesign-71rffx
 
 # The sequence of runs in this workflow:
 jobs:
