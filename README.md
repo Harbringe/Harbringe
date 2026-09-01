@@ -4,7 +4,7 @@
 
 <div align="center">
   <br>
-  <a href="mailto:aadityamehetre@icloud.com"><img src="assets/badge-mail.svg" alt="Email" /></a>&nbsp;
+  <a href="mailto:aadityamehetre@gmail.com"><img src="assets/badge-mail.svg" alt="Email" /></a>&nbsp;
   <a href="https://linkedin.com/in/aaditya-mehetre"><img src="assets/badge-linkedin.svg" alt="LinkedIn" /></a>&nbsp;
   <a href="https://github.com/Harbringe/Harbringe/issues"><img src="assets/badge-ama.svg" alt="Ask me anything" /></a>
 </div>
