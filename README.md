@@ -76,6 +76,6 @@ celery             async ml pipelines that survive mondays
         ▀▄   ▄▀
        ▄█▀███▀█▄        you read the source. of course you did.
       █▀███████▀█       curiosity level: dangerous. we should talk →
-      █ █▀▀▀▀▀█ █       aadityamehetre@icloud.com
+      █ █▀▀▀▀▀█ █       aadityamehetre@gmail.com
        ▀▀ ▀▀▀ ▀▀
 -->
