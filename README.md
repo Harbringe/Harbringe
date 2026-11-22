@@ -11,6 +11,25 @@
 
 <br>
 
+<h2><samp>$ ps aux --sort=-focus</samp></h2>
+
+<div align="center">
+  <img src="assets/now.svg" width="860" alt="What I'm working on now: autoca (new, in progress), eo-insight (satellite-imagery RAG), jobpilot (AI job autopilot API), ai-expense-claim (auditable expense agent), valshort (clip-to-Shorts pipeline)" />
+</div>
+
+<br>
+
+<h2><samp>$ ls ~/projects --featured</samp></h2>
+
+<p align="center">
+  <a href="https://github.com/Harbringe/eo-insight"><img src="assets/projects/eo-insight.svg" width="49%" alt="eo-insight: natural-language RAG search over Sentinel-2 satellite imagery. FastAPI, Qdrant, PostGIS, CLIP, Celery." /></a>
+  <a href="https://github.com/Harbringe/AI-integrated-Expense-Claim"><img src="assets/projects/expense-claim.svg" width="49%" alt="ai-expense-claim: explainable, auditable expense-claim validation with Azure OpenAI vision and ~20 traced policy checks." /></a>
+  <a href="https://github.com/Harbringe/shorts"><img src="assets/projects/valshort.svg" width="49%" alt="valshort: turns a trimmed gameplay clip into a finished 1080x1920 YouTube Short with ffmpeg." /></a>
+  <a href="https://github.com/Harbringe/JobPilot"><img src="assets/projects/jobpilot.svg" width="49%" alt="jobpilot: AI-powered job application platform API. Node, TypeScript, Prisma, pgvector." /></a>
+</p>
+
+<br>
+
 <h2><samp>$ pip list | grep -iE "genai|vision"</samp></h2>
 
 ```text
