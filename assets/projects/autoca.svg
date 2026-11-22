@@ -75,7 +75,6 @@
     <text x="271.5" y="333.5" text-anchor="middle" font-size="11" fill="#7dcfff">celery</text>
   <rect x="306" y="320" width="37" height="19" rx="4" fill="#24283b" stroke="#414868" stroke-width="0.8"/>
     <text x="324.5" y="333.5" text-anchor="middle" font-size="11" fill="#7dcfff">aws</text>
-  <text x="26" y="357" font-size="11.5" fill="#565f89"><tspan fill="#9ece6a">✔ verified</tspan>  Axis FY25-26 ledger matched the CA's own Tally to the paisa</text>
   <text x="834" y="357" text-anchor="end" font-size="11.5" fill="#565f89">open repo ↗</text>
   </g>
 </svg>

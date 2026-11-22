@@ -42,7 +42,6 @@ const FLAGSHIP = {
   ],
   guarantees: ["postgres RLS per firm", "no UPDATE on journals", "encrypted GSTINs", "MFA everywhere"],
   stack: ["django", "postgres", "react 19", "celery", "aws"],
-  proof: "Axis FY25-26 ledger matched the CA's own Tally to the paisa",
 };
 
 // ─────────────────────────── featured projects ───────────────────────────
@@ -154,7 +153,6 @@ function flagship(p) {
   out.push(`<text x="${X}" y="${H - 69}" font-size="11.5" fill="${C.mag}" font-weight="bold">GUARANTEES</text>`);
   out.push(chips(p.guarantees, X + 92, H - 83, C.green));
   out.push(chips(p.stack, X, H - 52));
-  out.push(`<text x="${X}" y="${H - 15}" font-size="11.5" fill="${C.dim}"><tspan fill="${C.green}">✔ verified</tspan>  ${esc(p.proof)}</text>`);
   out.push(`<text x="${W - X}" y="${H - 15}" text-anchor="end" font-size="11.5" fill="${C.dim}">open repo ↗</text>`);
 
   return `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" xmlns="http://www.w3.org/2000/svg" font-family="${FONT}">
