@@ -35,10 +35,11 @@ const FLAGSHIP = {
     ["file", "Tally sync · GSTR-1 / 3B / 2B recon · TDS · payroll · P&L, BS"],
   ],
   stats: [
-    ["~100k", "py lines"],
-    ["~75k", "ts lines"],
-    ["2,300+", "tests"],
-    ["127", "migrations"],
+    // [number, label lines, colour]: code size on top, trust below
+    ["~175k", ["lines of", "code"], C.cyan],
+    ["2,300+", ["automated", "tests"], C.cyan],
+    ["0", ["unreviewed", "postings"], C.green],
+    ["0", ["raw PII", "to the LLM"], C.green],
   ],
   guarantees: ["postgres RLS per firm", "no UPDATE on journals", "encrypted GSTINs", "MFA everywhere"],
   stack: ["django", "postgres", "react 19", "celery", "aws"],
@@ -140,13 +141,13 @@ function flagship(p) {
   });
 
   // scale (right column)
-  const SX = 690;
+  const SX = 682;
   out.push(`<line x1="${SX - 18}" y1="136" x2="${SX - 18}" y2="282" stroke="${C.border}" stroke-dasharray="3 3"/>`);
-  out.push(`<text x="${SX}" y="144" font-size="11.5" fill="${C.mag}" font-weight="bold">SCALE</text>`);
-  p.stats.forEach(([n, l], i) => {
-    const yy = 180 + Math.floor(i / 2) * 58, xx = SX + (i % 2) * 84;
-    out.push(`<text x="${xx}" y="${yy}" font-size="19" font-weight="bold" fill="${C.cyan}">${esc(n)}</text>`);
-    out.push(`<text x="${xx}" y="${yy + 16}" font-size="10.5" fill="${C.dim}">${esc(l)}</text>`);
+  out.push(`<text x="${SX}" y="144" font-size="11.5" fill="${C.mag}" font-weight="bold">BY THE NUMBERS</text>`);
+  p.stats.forEach(([n, lines, col], i) => {
+    const yy = 172 + Math.floor(i / 2) * 60, xx = SX + (i % 2) * 86;
+    out.push(`<text x="${xx}" y="${yy}" font-size="19" font-weight="bold" fill="${col}">${esc(n)}</text>`);
+    lines.forEach((l, j) => out.push(`<text x="${xx}" y="${yy + 15 + j * 12}" font-size="10" fill="${C.dim}">${esc(l)}</text>`));
   });
 
   // guarantees + stack

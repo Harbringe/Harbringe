@@ -46,16 +46,20 @@
     <circle cx="31" cy="268" r="4" fill="#9ece6a" stroke="#9ece6a" stroke-width="1.5"/>
     
     <text x="46" y="272" font-size="12.5"><tspan fill="#e0af68" font-weight="bold">file          </tspan><tspan fill="#c0caf5">Tally sync · GSTR-1 / 3B / 2B recon · TDS · payroll · P&amp;L, BS</tspan></text></g>
-  <line x1="672" y1="136" x2="672" y2="282" stroke="#414868" stroke-dasharray="3 3"/>
-  <text x="690" y="144" font-size="11.5" fill="#bb9af7" font-weight="bold">SCALE</text>
-  <text x="690" y="180" font-size="19" font-weight="bold" fill="#7dcfff">~100k</text>
-  <text x="690" y="196" font-size="10.5" fill="#565f89">py lines</text>
-  <text x="774" y="180" font-size="19" font-weight="bold" fill="#7dcfff">~75k</text>
-  <text x="774" y="196" font-size="10.5" fill="#565f89">ts lines</text>
-  <text x="690" y="238" font-size="19" font-weight="bold" fill="#7dcfff">2,300+</text>
-  <text x="690" y="254" font-size="10.5" fill="#565f89">tests</text>
-  <text x="774" y="238" font-size="19" font-weight="bold" fill="#7dcfff">127</text>
-  <text x="774" y="254" font-size="10.5" fill="#565f89">migrations</text>
+  <line x1="664" y1="136" x2="664" y2="282" stroke="#414868" stroke-dasharray="3 3"/>
+  <text x="682" y="144" font-size="11.5" fill="#bb9af7" font-weight="bold">BY THE NUMBERS</text>
+  <text x="682" y="172" font-size="19" font-weight="bold" fill="#7dcfff">~175k</text>
+  <text x="682" y="187" font-size="10" fill="#565f89">lines of</text>
+  <text x="682" y="199" font-size="10" fill="#565f89">code</text>
+  <text x="768" y="172" font-size="19" font-weight="bold" fill="#7dcfff">2,300+</text>
+  <text x="768" y="187" font-size="10" fill="#565f89">automated</text>
+  <text x="768" y="199" font-size="10" fill="#565f89">tests</text>
+  <text x="682" y="232" font-size="19" font-weight="bold" fill="#9ece6a">0</text>
+  <text x="682" y="247" font-size="10" fill="#565f89">unreviewed</text>
+  <text x="682" y="259" font-size="10" fill="#565f89">postings</text>
+  <text x="768" y="232" font-size="19" font-weight="bold" fill="#9ece6a">0</text>
+  <text x="768" y="247" font-size="10" fill="#565f89">raw PII</text>
+  <text x="768" y="259" font-size="10" fill="#565f89">to the LLM</text>
   <text x="26" y="303" font-size="11.5" fill="#bb9af7" font-weight="bold">GUARANTEES</text>
   <rect x="118" y="289" width="161" height="19" rx="4" fill="#24283b" stroke="#414868" stroke-width="0.8"/>
     <text x="198.5" y="302.5" text-anchor="middle" font-size="11" fill="#9ece6a">postgres RLS per firm</text>
