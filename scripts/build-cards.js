@@ -37,7 +37,7 @@ const FLAGSHIP = {
   stats: [
     ["38k+", ["parsed", "txns"], C.cyan],
     ["175k+", ["lines of", "code"], C.cyan],
-    ["2.3k+", ["tests"], C.green],
+    ["~3.2k", ["automated", "tests"], C.green],  // 2,375 backend + 832 frontend
     ["60+", ["books"], C.green],
   ],
   guarantees: ["postgres RLS per firm", "no UPDATE on journals", "encrypted GSTINs", "MFA everywhere"],
