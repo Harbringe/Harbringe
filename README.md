@@ -14,7 +14,7 @@
 <h2><samp>$ ls ~/projects --featured</samp></h2>
 
 <p align="center">
-  <a href="https://github.com/Harbringe/autoca"><img src="assets/projects/autoca.svg" width="100%" alt="autoca, flagship, MVP in production: bookkeeping automation for Indian CA firms. Bank statements from any bank are parsed and proved against their own balances, classified by learned rules then a pseudonymised LLM, queued for CA review, and posted as immutable journal entries; it syncs with Tally and prepares GSTR-1/3B/2B, TDS and payroll. In production: 38k+ bank transactions parsed from 2.8k+ statement pages across 60+ clients; 3,200+ automated tests. Django, Postgres row-level security, React 19, Celery, AWS." /></a>
+  <a href="https://github.com/Harbringe/autoca"><img src="assets/projects/autoca.svg" width="100%" alt="autoca, flagship, MVP in production: bookkeeping automation for Indian CA firms. Bank statements from any bank are parsed and proved against their own balances, classified by learned rules then a pseudonymised LLM, queued for CA review, and posted as immutable journal entries; it syncs with Tally and prepares GSTR-1/3B/2B, TDS and payroll. By the numbers: 38k+ parsed transactions, 175k+ lines of code, 2.3k+ tests, 60+ books. Django, Postgres row-level security, React 19, Celery, AWS." /></a>
 </p>
 <p align="center">
   <a href="https://github.com/Harbringe/eo-insight"><img src="assets/projects/eo-insight.svg" width="49%" alt="eo-insight: natural-language RAG search over Sentinel-2 satellite imagery for analysts tracking deforestation and urban sprawl. NDVI change detection, BLIP-2 captions, CLIP embeddings in Qdrant, PostGIS spatial filtering." /></a>

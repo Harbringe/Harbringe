@@ -34,12 +34,11 @@ const FLAGSHIP = {
     ["post", "immutable journal entry; corrections reverse, never edit"],
     ["file", "Tally sync · GSTR-1 / 3B / 2B recon · TDS · payroll · P&L, BS"],
   ],
-  // Live production counts (read-only query, all 3 active firms), rounded down.
   stats: [
-    ["38k+", ["bank txns", "parsed"], C.cyan],
-    ["2.8k+", ["statement", "pages read"], C.cyan],
-    ["60+", ["clients'", "books"], C.green],
-    ["3,200+", ["automated", "tests"], C.green],
+    ["38k+", ["parsed", "txns"], C.cyan],
+    ["175k+", ["lines of", "code"], C.cyan],
+    ["2.3k+", ["tests"], C.green],
+    ["60+", ["books"], C.green],
   ],
   guarantees: ["postgres RLS per firm", "no UPDATE on journals", "encrypted GSTINs", "MFA everywhere"],
   stack: ["django", "postgres", "react 19", "celery", "aws"],
@@ -143,7 +142,7 @@ function flagship(p) {
   // scale (right column)
   const SX = 682;
   out.push(`<line x1="${SX - 18}" y1="136" x2="${SX - 18}" y2="282" stroke="${C.border}" stroke-dasharray="3 3"/>`);
-  out.push(`<text x="${SX}" y="144" font-size="11.5" fill="${C.mag}" font-weight="bold">IN PRODUCTION</text>`);
+  out.push(`<text x="${SX}" y="144" font-size="11.5" fill="${C.mag}" font-weight="bold">BY THE NUMBERS</text>`);
   p.stats.forEach(([n, lines, col], i) => {
     const yy = 172 + Math.floor(i / 2) * 60, xx = SX + (i % 2) * 86;
     out.push(`<text x="${xx}" y="${yy}" font-size="19" font-weight="bold" fill="${col}">${esc(n)}</text>`);
