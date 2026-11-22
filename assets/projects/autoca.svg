@@ -24,7 +24,7 @@
     <circle cx="11" cy="10.5" r="3.5" fill="#9ece6a" class="pulse"/>
     <text x="20" y="14.5" font-size="11.5" fill="#9ece6a">MVP · in production</text></g>
   <text x="26" y="94" font-size="15" fill="#c0caf5" font-style="italic">bookkeeping on autopilot for Indian CA firms</text>
-  <text x="26" y="115" font-size="12.5" fill="#565f89">bank statements in, approved books and returns out. The CA signs off, the software does the rest.</text>
+  <text x="26" y="115" font-size="12.5" fill="#565f89">bank statements in, books and returns out. Rules + AI do the booking; the CA reviews the queue.</text>
   <text x="26" y="144" font-size="11.5" fill="#bb9af7" font-weight="bold">PIPELINE</text>
   <g class="step" style="animation-delay:0.25s">
     <circle cx="31" cy="160" r="4" fill="#1a1b26" stroke="#9ece6a" stroke-width="1.5"/>
@@ -41,25 +41,25 @@
   <g class="step" style="animation-delay:0.70s">
     <circle cx="31" cy="241" r="4" fill="#1a1b26" stroke="#9ece6a" stroke-width="1.5"/>
     <line x1="31" y1="246" x2="31" y2="263" stroke="#414868" stroke-width="1.5" stroke-dasharray="2 2"/>
-    <text x="46" y="245" font-size="12.5"><tspan fill="#e0af68" font-weight="bold">approve       </tspan><tspan fill="#c0caf5">senior CA signs → immutable journal entry, never edited in place</tspan></text></g>
+    <text x="46" y="245" font-size="12.5"><tspan fill="#e0af68" font-weight="bold">post          </tspan><tspan fill="#c0caf5">immutable journal entry; corrections reverse, never edit</tspan></text></g>
   <g class="step" style="animation-delay:0.85s">
     <circle cx="31" cy="268" r="4" fill="#9ece6a" stroke="#9ece6a" stroke-width="1.5"/>
     
     <text x="46" y="272" font-size="12.5"><tspan fill="#e0af68" font-weight="bold">file          </tspan><tspan fill="#c0caf5">Tally sync · GSTR-1 / 3B / 2B recon · TDS · payroll · P&amp;L, BS</tspan></text></g>
   <line x1="664" y1="136" x2="664" y2="282" stroke="#414868" stroke-dasharray="3 3"/>
-  <text x="682" y="144" font-size="11.5" fill="#bb9af7" font-weight="bold">BY THE NUMBERS</text>
-  <text x="682" y="172" font-size="19" font-weight="bold" fill="#7dcfff">~175k</text>
-  <text x="682" y="187" font-size="10" fill="#565f89">lines of</text>
-  <text x="682" y="199" font-size="10" fill="#565f89">code</text>
-  <text x="768" y="172" font-size="19" font-weight="bold" fill="#7dcfff">2,300+</text>
-  <text x="768" y="187" font-size="10" fill="#565f89">automated</text>
-  <text x="768" y="199" font-size="10" fill="#565f89">tests</text>
-  <text x="682" y="232" font-size="19" font-weight="bold" fill="#9ece6a">0</text>
-  <text x="682" y="247" font-size="10" fill="#565f89">unreviewed</text>
-  <text x="682" y="259" font-size="10" fill="#565f89">postings</text>
-  <text x="768" y="232" font-size="19" font-weight="bold" fill="#9ece6a">0</text>
-  <text x="768" y="247" font-size="10" fill="#565f89">raw PII</text>
-  <text x="768" y="259" font-size="10" fill="#565f89">to the LLM</text>
+  <text x="682" y="144" font-size="11.5" fill="#bb9af7" font-weight="bold">IN PRODUCTION</text>
+  <text x="682" y="172" font-size="19" font-weight="bold" fill="#7dcfff">38k+</text>
+  <text x="682" y="187" font-size="10" fill="#565f89">bank txns</text>
+  <text x="682" y="199" font-size="10" fill="#565f89">parsed</text>
+  <text x="768" y="172" font-size="19" font-weight="bold" fill="#7dcfff">2.8k+</text>
+  <text x="768" y="187" font-size="10" fill="#565f89">statement</text>
+  <text x="768" y="199" font-size="10" fill="#565f89">pages read</text>
+  <text x="682" y="232" font-size="19" font-weight="bold" fill="#9ece6a">60+</text>
+  <text x="682" y="247" font-size="10" fill="#565f89">clients'</text>
+  <text x="682" y="259" font-size="10" fill="#565f89">books</text>
+  <text x="768" y="232" font-size="19" font-weight="bold" fill="#9ece6a">3,200+</text>
+  <text x="768" y="247" font-size="10" fill="#565f89">automated</text>
+  <text x="768" y="259" font-size="10" fill="#565f89">tests</text>
   <text x="26" y="303" font-size="11.5" fill="#bb9af7" font-weight="bold">GUARANTEES</text>
   <rect x="118" y="289" width="161" height="19" rx="4" fill="#24283b" stroke="#414868" stroke-width="0.8"/>
     <text x="198.5" y="302.5" text-anchor="middle" font-size="11" fill="#9ece6a">postgres RLS per firm</text>

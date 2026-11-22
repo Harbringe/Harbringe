@@ -26,20 +26,20 @@ const FLAGSHIP = {
   accent: C.green,
   status: ["MVP · in production", C.green],
   tagline: "bookkeeping on autopilot for Indian CA firms",
-  forWho: "bank statements in, approved books and returns out. The CA signs off, the software does the rest.",
+  forWho: "bank statements in, books and returns out. Rules + AI do the booking; the CA reviews the queue.",
   pipeline: [
     ["statement.pdf", "any bank, parsed and proved against its own running balance"],
     ["classify", "rules first, then an LLM that only ever sees pseudonymised data"],
     ["review", "CA queue sorted by confidence; every decision teaches a rule"],
-    ["approve", "senior CA signs → immutable journal entry, never edited in place"],
+    ["post", "immutable journal entry; corrections reverse, never edit"],
     ["file", "Tally sync · GSTR-1 / 3B / 2B recon · TDS · payroll · P&L, BS"],
   ],
+  // Live production counts (read-only query, all 3 active firms), rounded down.
   stats: [
-    // [number, label lines, colour]: code size on top, trust below
-    ["~175k", ["lines of", "code"], C.cyan],
-    ["2,300+", ["automated", "tests"], C.cyan],
-    ["0", ["unreviewed", "postings"], C.green],
-    ["0", ["raw PII", "to the LLM"], C.green],
+    ["38k+", ["bank txns", "parsed"], C.cyan],
+    ["2.8k+", ["statement", "pages read"], C.cyan],
+    ["60+", ["clients'", "books"], C.green],
+    ["3,200+", ["automated", "tests"], C.green],
   ],
   guarantees: ["postgres RLS per firm", "no UPDATE on journals", "encrypted GSTINs", "MFA everywhere"],
   stack: ["django", "postgres", "react 19", "celery", "aws"],
@@ -143,7 +143,7 @@ function flagship(p) {
   // scale (right column)
   const SX = 682;
   out.push(`<line x1="${SX - 18}" y1="136" x2="${SX - 18}" y2="282" stroke="${C.border}" stroke-dasharray="3 3"/>`);
-  out.push(`<text x="${SX}" y="144" font-size="11.5" fill="${C.mag}" font-weight="bold">BY THE NUMBERS</text>`);
+  out.push(`<text x="${SX}" y="144" font-size="11.5" fill="${C.mag}" font-weight="bold">IN PRODUCTION</text>`);
   p.stats.forEach(([n, lines, col], i) => {
     const yy = 172 + Math.floor(i / 2) * 60, xx = SX + (i % 2) * 86;
     out.push(`<text x="${xx}" y="${yy}" font-size="19" font-weight="bold" fill="${col}">${esc(n)}</text>`);
